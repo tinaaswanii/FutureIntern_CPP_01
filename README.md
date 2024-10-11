@@ -1,27 +1,23 @@
-# Basic Calculator
+# Basic Calculator and Number Guessing Game
 
-This is a simple **C++ Basic Calculator** program that performs basic arithmetic operations like addition, subtraction, multiplication, and division.
+This repository contains two simple C++ console applications:
+1. **Basic Calculator**: Performs basic arithmetic operations (addition, subtraction, multiplication, division).
+2. **Number Guessing Game**: Users guess a random number between 1 and 100, receiving hints based on their guesses.
 
 ## Features
-- Addition
-- Subtraction
-- Multiplication
-- Division
+- **Basic Calculator**: Supports basic operations.
+- **Number Guessing Game**: Provides hints and tracks attempts.
 
-## How to Run
-1. Clone or download the repository.
-2. Compile the `calculator.cpp` file.
-3. Run the executable file.
-4. Follow the on-screen instructions to perform calculations.
+## How to Compile and Run
+1. Open your terminal or command prompt.
+2. Navigate to the project directory.
+3. Compile with:
+   - For Basic Calculator: `g++ -o BasicCalculator BasicCalculator.cpp`
+   - For Number Guessing Game: `g++ -o NumberGuessingGame NumberGuessingGame.cpp`
+4. Run with:
+   - For Basic Calculator: `./BasicCalculator` (or `BasicCalculator.exe` on Windows)
+   - For Number Guessing Game: `./NumberGuessingGame` (or `NumberGuessingGame.exe` on Windows)
 
-## Requirements
-- C++ Compiler (e.g., GCC)
+## Contributing
+Feel free to fork the repository and submit pull requests!
 
-## Usage Example
-Enter first number: 5
-Enter operator (+, -, *, /): +
-Enter second number: 3
-Result: 8
-
-## Contribution
-Feel free to fork this repository and create pull requests to add more features or improve the code!
